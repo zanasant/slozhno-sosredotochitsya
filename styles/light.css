@@ -9,4 +9,57 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --page-text-color: #353430;
+  --page-bg-color: #fff1f7;
+  --header-title-color: #ffc2e6;
+  --menu-text-color: #353430;
+  --section-title-color: #353430;
+  --subtitle-text-color: #353430;
+  --subtitle-bg-color: #ff8dcb;
+  --menu-hover-color: rgb(50 49 45 / 40%);
+
+  background-image: url("../images/cover-image-light.png");
+}
+
+.page.theme_light .header__record {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    --page-text-color: #353430;
+    --page-bg-color: #fff1f7;
+    --header-title-color: #ffc2e6;
+    --menu-text-color: #353430;
+    --section-title-color: #353430;
+    --subtitle-text-color: #353430;
+    --subtitle-bg-color: #ff8dcb;
+    --menu-hover-color: rgb(50 49 45 / 40%);
+
+    background-image: url("../images/cover-image-light.png");
+  }
+
+  .header__record {
+    display: none;
+  }
+}
+
+@media (1024px <= width) {
+  @media (prefers-color-scheme: light) {
+    .header__title {
+      text-shadow: 4px 4px 0 #ff0070;
+    }
+
+    .footer__title {
+      text-shadow: 4px 4px 0 #ff0070;
+    }
+  }
+
+  .page.theme_light .header__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+
+  .page.theme_light .footer__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
 }
