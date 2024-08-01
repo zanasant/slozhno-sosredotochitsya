@@ -2,185 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-
 :root {
-  --main-font-family: 'IBM Plex mono', monospace;
-  --main-gap: 10px;
-  --main-tekst-size: 18px;
-  --main-line-height: 1.3;
-  --main-text-color: #FFC2E6;
-  --main-heading-color: #000028;
-  --header-paragraph-color: #000028;
-  --section-heading-color: #FF0070;
-  --header-drec-color: #FF0070;
-  --header-logo-color: #DB00FF;
-  --main-paragraph-color: #F1B2CE;
-  --maim-bg-color: #000028;
-  --accent-color: #FF0070;
-  --nav-color: #FF0070;
-  --header-logo-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-logo-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --footer-logo-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --footer-logo-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --footer-logo-color: #DB00FF;
+  --page-text-color: #f1b2ce;
+  --page-bg-color: #000028;
+  --page-font-family: 'IBM Plex mono';
+  --main-font-family: 'IBM Plex mono';
+  --heading-font-family: 'IBM Plex mono';
+  --page-font-size: 18px;
+  --menu-text-color: #ff0070;
+  --section-title-color: #ff0070;
+  --subtitle-text-color: #000028;
+  --subtitle-bg-color: #ff0070;
+  --main-font-weight: 400;
+  --heading-font-weight: 700;
+  --section-gap: 20px;
+  --menu-hover-color: rgb(255 0 112 / 40%);
 }
-
-/* @media (width >= 768px) {
-  .rec-decor {
-    inset-inline-end: 28px;
-    inset-block-start: 20px;
-  }
-
-  .page-title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
-  .section {
-    grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
-  }
-
-  .section-what__articles-list {
-    grid-column-start: span 2;
-  }
-
-  .section-gallery {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .section-how__articles-list {
-    grid-column-start: 2;
-  }
-
-  .gallery-list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-
-  .gallery-list__item:first-child,
-  .gallery-list__item:last-child {
-    grid-column-start: span 2;
-  }
-
-  .gallery-list__item:nth-child(2),
-  .gallery-list__item:nth-child(3) {
-    grid-row-start: span 2;
-  }
-
-  .header {
-    padding-inline-start: 0;
-  }
-
-  .header__theme-menu {
-    margin-block-start: 170px;
-    margin-block-end: 70px;
-  }
-
-  .header__title {
-    justify-self: end;
-    inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
-  }
-
-  .main {
-    gap: 80px;
-    padding: 60px 20px;
-  }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (width <= 375px) {
-  .page {
-    margin: 0 auto;
-    padding: 10px;
-  }
-  
-  .header-logo {
-    font-size: var(--header-logo-size-mobile);
-    align-self: self-start;
-    margin-block-start: 73px; 
-  }
-
-  .header-text {
-    inline-size: 355px;
-    block-size: 117px;
-    margin: 55px 0 56px;
-  }
-
-  .header__theme-menu {
-    align-self: center;
-    justify-self: end;
-    margin-block-start: 39px;
-  }
-
-  .header__theme-menu-list {
-    flex-direction: row;
-  }
-}
-
-@media (375px < width <= 768px) {
-  .page {
-    padding: 20px;
-    margin: 0;
-  }
-  
-  .header-logo {
-    font-size: var(--header-logo-size-desktop);
-    align-self: center;
-    justify-self: start;
-    margin-inline-start: -19px;
-    margin-block-start: 179px;
-  }
-
-  .header__theme-menu {
-    align-self: center;
-    justify-self: end;
-    margin-block-start: 141px;
-    margin-inline-end: -2px;
-  }
-
-  .header-text {
-    inline-size: 364px;
-    block-size: 117px;
-    align-self: center;
-    justify-self: end;
-    margin-block-start: 162px;
-    margin-block-end: 164px;
-  }
-
-}
-
-@media (width >= 769px) {
-  .page {
-    padding: 20px;
-    margin: 0;
-  }
-
-  .header-logo {
-    font-size: var(--header-logo-size-desktop);
-  }
-
-  .header-text {
-    inline-size: 491px;
-    block-size: 71px;
-    align-self: center;
-    justify-self: end;
-    margin-block-start: 162px;
-    margin-block-end: 164px;
-  }
-
-  .header__theme-menu-list {
-   display: flex;
-  }
-} */
